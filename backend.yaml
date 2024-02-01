@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: backend
+  name: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: backend
+    spec:
+      containers:
+      - image: nehasharma372/my_backend_memories
+        name: my-backend-memories-zr5m9
+        ports:
+        - containerPort: 5000
+        env:
+        - name: URL
+          value: "mongodb://mongo-svc:27017/test"
+         
+        resources: {}
+status: {}

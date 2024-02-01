@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: frontend
+  name: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - image: nehasharma372/my_frontend_app
+        name: my-frontend-app-v4qj2
+        ports:
+          - containerPort: 3000
+        env:
+          - name: REACT_APP_URL
+            value: "http://backend.com:30168"
+
+        resources: {}
+
+status: {}
