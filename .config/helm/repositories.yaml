@@ -1,0 +1,21 @@
+apiVersion: ""
+generated: "0001-01-01T00:00:00Z"
+repositories:
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: helm-charts
+  pass_credentials_all: false
+  password: ""
+  url: https://neha130.github.io/helm-charts/
+  username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: neha
+  pass_credentials_all: false
+  password: ""
+  url: https://neha130.github.io/helm-charts/
+  username: ""

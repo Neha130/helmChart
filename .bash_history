@@ -140,3 +140,535 @@ cd
 tree helloworld 
 sudo apt  install tree
 tree helloworld 
+ls
+cd helloworld/
+vim values.yaml 
+helm install myhelloworld helloworld
+cd .
+helm install myhelloworld helloworld
+cd
+cd helloworld/
+helm template neha .
+helm install helloworld .
+vim values.yaml 
+helm install helloworld .
+helm install helloworlds .
+helm list -a
+kubectl get service
+curl ifconfig.me
+cd
+helm create helloworld
+helm create mongo
+tree mongo
+cd mongo/
+cd templates/
+ls
+vim deployment.yaml 
+helm template neha .
+kubectl apply -f deployment.yaml 
+vim deployment.yaml 
+cat deployment.yaml 
+vim deployment.yaml 
+helm template neha .
+cd ..
+helm template neha .
+ls
+cd templates/
+ls
+vim service.yaml 
+cat deployment.yaml 
+cat service.yaml 
+cd
+cd mongo/
+cat values.yaml 
+vim values.yaml 
+helm template neha .
+ls
+tree mongo
+cd
+tree mongo
+helm install myhelloworld helloworld
+helm install mongodb mongo
+helm list -a
+kubectl get service
+curl congif.me
+curl config.me
+helm list -a
+kubectl get service
+curl ifconfig.me
+tree
+tree mongo
+cd mongo/
+cd templates/
+cat deployment.yaml 
+cd
+ls
+cd mongo/
+ls
+cd va
+cat values.yaml 
+vim values.yaml 
+helm template neha .
+ls
+cd templates/
+ls
+cd ..
+ls
+cd templates/
+
+rm tests
+rf test
+rm -d test
+rm -d tests
+rmf -d tests
+cd test
+cd tests
+ls
+kubectl delete test-connection.yaml 
+cat test-connection.yaml 
+kubectl delete pod test-connection.yaml 
+rm test-connection.yaml 
+ls
+cd .
+rm tests
+rmf -d tests
+rm -d tests
+cd .
+cd ..
+rm -d tests
+ls
+cd 
+helm list -a
+kubectl get svc
+curk ifconfig.me
+curl ifconfig.me
+cd mongo/
+ls
+
+ls
+cat deployment.yaml 
+cd 
+cd mogo
+cd mongo/
+helm template neha .
+kubectl get svc
+kubectl get ep
+telnet
+curl ifconfig.me
+telnet 65.0.12.177 31065
+telnet 65.0.12.177
+kubectl get po -A | grep ing
+telnet 65.0.12.177 30982
+kubectl get ep
+telnet 10.1.89.81 27017
+kubectl get po
+kubectl get po -o wide
+kubectl exec -it mongodb-68fffc8b5d-tckpk -- bash
+ls
+vim templates/
+cd templates/
+ls
+vim service
+vim service.yaml 
+vim deployment.yaml 
+cd ..
+vim values.yaml 
+helm template .
+cd .
+cd
+helm install nehadb mongo
+kubectl get svc
+kubectl get po
+cd mongo
+vim values.yaml 
+cd templates/
+vim deployment.yaml 
+cd .
+cd ..
+helm list 
+helm upgrade nehadb .
+kubectl get svc
+kubectl get po
+kubectl exec -it nehadb-mongo-b47cfcbdf-p9gmf -- bin/bash
+curl ifconfig.me
+cd
+helm create helloworld
+telnet 65.0.12.177 31985
+helm create backend
+tree backend
+cd backend/
+cd templates/
+ls
+vim deployment.yaml 
+cd ..
+vim values.yaml 
+cd templates/
+cd tests/
+rm test-connection.yaml 
+cd ..
+cd tests/
+cd ..
+rm tests/
+rm -d tests/
+ls
+cd ..
+helm template neha .
+cd ..
+helm install neha-backend backend
+kubectl get po
+kubectl get svc
+cd backend/
+cd templates/
+vim ingress.yaml 
+cd ..
+vim values.yaml 
+cd templates/
+vim ingress.yaml 
+vim values.yaml 
+cd ..
+vim values.yaml 
+
+helm upgrade nehabackend .
+helm templates .
+helm template .
+vim values.yaml 
+cd ..
+cd mongo
+cd templates/
+vim service
+vim service.yaml 
+cd ..
+vim values.yaml 
+cd templates/
+vim service.yaml 
+cd
+kubectl get svc
+cd bac
+cd backend/
+cd templates/
+vim deployment.yaml 
+cd
+cd backend/
+helm template .
+vim values.yaml 
+cd
+cd backend/
+helm upgrade nehabackend .
+helm list
+helm upgrade neha-backend .
+helm upgrade backend .
+helm list
+vim values.yaml 
+helm upgrade backend .
+helm upgrade neha-backend .
+kubectl get ingress
+kubectl get ingress neha-backend -o yaml
+microk8s enable ingress
+kubectl get ingress
+kubectl get ingressclass
+kubectl get all
+kubectl get ns
+kubectl get all -n ingress
+kubectl get svc 
+kubectl edit ingress neha-backend 
+kubectl get all -n ingress
+kubectl get ds nginx-ingress-microk8s-controller -n ingress -o yaml
+kubectl edit ingress neha-backend 
+cd
+git config --global user.name "neha130"
+git config --global user.email "neha.sharma@devtron.ai"
+ls
+git init
+git add .
+git commit -m "m"
+git branch -M main
+git remote add origin https://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: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@github.com/Neha130/helmChart.git
+git push origin main
+ls
+tree
+cd mongo
+helm package .
+cd
+cd backend/
+helm package .
+cd
+cd helloworld/
+helm package .
+cd
+ls
+cd mongo
+ls
+
+init
+git init
+git add  mongo-0.1.0.tgz 
+git commit -m "m"
+git branch -M main
+git remote add origin https://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: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@github.com/Neha130/helm-charts.git
+git push origin main
+cd
+cd backend/
+git init
+ls
+git add backend-0.1.0.tgz 
+git commit -m "m"
+git branch -M main
+git remote add origin https://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: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@github.com/Neha130/helm-charts.git
+git branch -M main
+git push origin main
+git pull origin mai
+git pull origin main
+git init
+git add backend-0.1.0.tgz 
+git commit -m "m"
+git remote add origin https://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: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@github.com/Neha130/helm-charts.git
+git push origin main
+ls
+git branch
+git status
+vi .gitignore
+ls
+tree .git
+cd
+ls
+history
+ls
+cd backend
+tree
+tree -a
+git addd . -h
+git add -h
+git add -A
+git commit -m "added tar file"
+ls
+git add backend-0.1.0.tgz 
+git commit -m "added tar file folder"
+git push origin main -h
+git push origin main -f
+ls
+cp ../mongo/mongo-0.1.0.tgz .
+git add mongo-0.1.0.tgz 
+git commit -m "added tar file mongo"
+git push origin main 
+git stash -h
+cd
+cd helloworld
+ls
+cd
+cd backend/
+cp ../helloworld/helloworld-0.1.0.tgz 
+cp ../helloworld/helloworld-0.1.0.tgz .
+git commit -m "added tar file mongo"
+git commit -m "added tar file hello"
+git add helloworld-0.1.0.tgz 
+git commit -m "added tar file helloworld"
+git push origin main 
+git commit -m "added tar file mongo"
+helm repo index --url https://github.com/Neha130/helm-charts .
+ls
+git add index.yaml 
+git commit -m "index file"
+git push origin main 
+history
+hotory
+history
+helm repo add helm-charts https://github.com/Neha130/helm-charts.git
+git tatus
+git status
+git login
+gh
+gh login
+helm repo add helm-charts https://neha130.github.io/helm-charts/
+helm install helm-charts -n vishu
+kubectl get ns
+kubectl create ns vishu
+helm install helm-charts -n vishu
+helm repolist
+helm list
+helm repo list
+ls
+mkdir vishu
+cd vishu/
+ls
+helm repo list
+helm install helm-charts -n vishu
+helm install helm-charts -n vishu .
+cd  ..
+helm install helm-charts -n vishu .
+ls
+helm install helm-charts -n vishu
+curl https://neha130.github.io/helm-charts/index.yaml
+helm repo add neha https://neha130.github.io/helm-charts/
+helm install -h
+helm repo list
+helm install kuch-bhi neha/helloworld
+helm install -h|grep tag
+helm install kuch-bhi neha/helloworld --version 0.1.0
+helm repo update neha
+helm install kuch-bhi neha/helloworld --version 0.1.0
+helm install kuch-bhi neha/helloworld 
+helm repo list 
+helm repo list  -h
+helm search repo -h
+helm search repo neha
+helm install kuch-bhi neha/helloworld 
+curl https://neha130.github.io/helm-charts/index.yaml
+curl https://github.com/Neha130/helm-charts/helloworld-0.1.0.tgz
+curl https://neha130.github.io/helm-charts/index.yaml
+helm repo update neha
+helm install kuch-bhi neha/helloworld 
+history
+helm install kuch-bhi neha/mongo
+helm repo update neha
+helm install kuch-bhi neha/mongo
+helm repo update neha
+helm install kuch-bhi neha/mongo
+helm install kuch neha/mongo
+curl 
+helm repo update neha
+helm repo delete neha
+helm repo remove neha
+helm repo add neha https://neha130.github.io/helm-charts/
+curl https://neha130.github.io/helm-charts/index.yaml
+helm repo add neha https://neha130.github.io/helm-charts/
+helm install kuch neha/mongo
+cd mongo/templates/
+cd .
+cd ..
+helm template .
+
+vim service.yaml 
+cd ..
+vim values.yaml 
+helm template .
+cd templates/
+vim service.yaml 
+cd
+cd mongo/
+tree
+vim Chart.yaml 
+vim service.yaml 
+cd templates/
+vim service.yaml 
+cd ..
+cd template .
+helm template .
+cd templates/
+cat service.yaml 
+cd ..
+cat values.yaml 
+cd
+kubectl get svc
+
+cd mongo/templates/
+ls
+cd 
+cat mongo/templates/service.yaml 
+cd mongo/
+helm template .
+helm template . --debug
+cat templates/service.yaml 
+tree
+cat templates/service
+cd templates/
+rm service
+helm template .
+cd ..
+helm templates/
+helm template .
+uiuop
+hel 
+helm upgrade 
+helm upgrade mongo .
+cd
+helm upgrade mongo .
+helm template .
+
+tree
+helm upgrade 
+vim values.yaml 
+cat Chart.yaml 
+vim Chart.yaml 
+helm upgrade mongo .
+helm template .
+helm search repo mongo
+
+ls
+cd
+ls
+cd helloworld/
+ls
+git status
+cp ../mongo/mongo-0.1.0.tgz 
+cp ../mongo/mongo-0.1.0.tgz .
+ls
+git add .
+git commit -m "tar"
+git push origin main
+history
+cd
+cd backend/
+ls
+rm mongo-0.1.0.tgz 
+ls
+cp ../mongo/mongo-0.1.0.tgz .
+ls
+git add .
+git commit -m "tar"
+git push origin main
+git push --help
+git push --all
+git push origin main --force
+cd
+helm 
+helm search repo mongo
+helm install kuch neha/mongo
+cd mongo
+version
+cat values.yaml 
+cat Chart.yaml 
+tree
+cd charts/
+ls
+cd ..
+vim Chart.yaml 
+helm package .
+git add index.yaml
+cd
+cd backend/
+cp ../mongo/mongo-0.1.1.tgz 
+cp ../mongo/mongo-0.1.1.tgz .
+git add index.yaml
+git commit -m "new version"
+git push origin main --fo
+git push origin main --force
+git push origin main
+git add .
+git push origin main
+git push origin main --force
+git add .
+ls
+git add mongo-0.1.1.tgz .
+git push origin main --force
+git status
+backend/
+cd backend/
+git status
+git commit -m "new tar "
+
+helm upgrade
+helm upgrade .
+helm upgrade backend.
+helm upgrade mongo .
+helm upgrade backend .
+pwd
+cd 
+helm upgrade backend .
+helm upgrade backend
+helm list
+helm list -a
+helm upgrade neha-backend helm-charts
+ls
+helm upgrade neha-backend backend
+list a
+helm list -a

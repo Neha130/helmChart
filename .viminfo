@@ -15,15 +15,15 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1706790378,,"wq"
+|2,0,1706861774,,"wq"
+:Wq
+|2,0,1706861770,,"Wq"
 :WQ
-|2,0,1706788973,,"WQ"
+|2,0,1706795346,,"WQ"
 :q
 |2,0,1706786739,,"q"
 :q!
 |2,0,1706786707,,"q!"
-:Wq
-|2,0,1706770401,,"Wq"
 :wq!
 |2,0,1706770060,,"wq!"
 
@@ -91,230 +91,264 @@ $
 |3,0,9,1,1,0,1706781163,"              path: /"
 
 # File marks:
-'0  35  39  /tmp/kubectl-edit-3506996647.yaml
-|4,48,35,39,1706790378,"/tmp/kubectl-edit-3506996647.yaml"
-'1  35  23  /tmp/kubectl-edit-1582018477.yaml
-|4,49,35,23,1706790110,"/tmp/kubectl-edit-1582018477.yaml"
-'2  40  16  ~/backend/values.yaml
-|4,50,40,16,1706789553,"~/backend/values.yaml"
-'3  50  22  ~/backend/values.yaml
-|4,51,50,22,1706789343,"~/backend/values.yaml"
-'4  50  22  ~/backend/values.yaml
-|4,52,50,22,1706789343,"~/backend/values.yaml"
-'5  42  43  ~/backend/templates/deployment.yaml
-|4,53,42,43,1706789195,"~/backend/templates/deployment.yaml"
-'6  1  0  ~/mongo/templates/service.yaml
-|4,54,1,0,1706789111,"~/mongo/templates/service.yaml"
-'7  81  0  ~/mongo/values.yaml
-|4,55,81,0,1706789061,"~/mongo/values.yaml"
+'0  18  13  ~/mongo/Chart.yaml
+|4,48,18,13,1706861774,"~/mongo/Chart.yaml"
+'1  18  13  ~/mongo/Chart.yaml
+|4,49,18,13,1706860373,"~/mongo/Chart.yaml"
+'2  82  11  ~/mongo/values.yaml
+|4,50,82,11,1706860271,"~/mongo/values.yaml"
+'3  1  0  ~/mongo/templates/service.yaml
+|4,51,1,0,1706859315,"~/mongo/templates/service.yaml"
+'4  1  0  ~/mongo/service.yaml
+|4,52,1,0,1706859230,"~/mongo/service.yaml"
+'5  18  13  ~/mongo/Chart.yaml
+|4,53,18,13,1706859211,"~/mongo/Chart.yaml"
+'6  18  13  ~/mongo/Chart.yaml
+|4,54,18,13,1706859211,"~/mongo/Chart.yaml"
+'7  1  0  ~/mongo/templates/service.yaml
+|4,55,1,0,1706859162,"~/mongo/templates/service.yaml"
 '8  1  0  ~/mongo/templates/service.yaml
-|4,56,1,0,1706789023,"~/mongo/templates/service.yaml"
-'9  3  0  ~/mongo/templates/service
-|4,57,3,0,1706789006,"~/mongo/templates/service"
+|4,56,1,0,1706859139,"~/mongo/templates/service.yaml"
+'9  1  0  ~/mongo/templates/service.yaml
+|4,57,1,0,1706859139,"~/mongo/templates/service.yaml"
 
 # Jumplist (newest first):
--'  35  39  /tmp/kubectl-edit-3506996647.yaml
-|4,39,35,39,1706790378,"/tmp/kubectl-edit-3506996647.yaml"
--'  1  0  /tmp/kubectl-edit-3506996647.yaml
-|4,39,1,0,1706790296,"/tmp/kubectl-edit-3506996647.yaml"
--'  35  23  /tmp/kubectl-edit-1582018477.yaml
-|4,39,35,23,1706790110,"/tmp/kubectl-edit-1582018477.yaml"
--'  35  23  /tmp/kubectl-edit-1582018477.yaml
-|4,39,35,23,1706790110,"/tmp/kubectl-edit-1582018477.yaml"
--'  1  0  /tmp/kubectl-edit-1582018477.yaml
-|4,39,1,0,1706790093,"/tmp/kubectl-edit-1582018477.yaml"
--'  1  0  /tmp/kubectl-edit-1582018477.yaml
-|4,39,1,0,1706790093,"/tmp/kubectl-edit-1582018477.yaml"
--'  40  16  ~/backend/values.yaml
-|4,39,40,16,1706789553,"~/backend/values.yaml"
--'  40  16  ~/backend/values.yaml
-|4,39,40,16,1706789553,"~/backend/values.yaml"
--'  40  16  ~/backend/values.yaml
-|4,39,40,16,1706789553,"~/backend/values.yaml"
--'  40  16  ~/backend/values.yaml
-|4,39,40,16,1706789553,"~/backend/values.yaml"
--'  50  22  ~/backend/values.yaml
-|4,39,50,22,1706789524,"~/backend/values.yaml"
--'  50  22  ~/backend/values.yaml
-|4,39,50,22,1706789524,"~/backend/values.yaml"
--'  50  22  ~/backend/values.yaml
-|4,39,50,22,1706789524,"~/backend/values.yaml"
--'  50  22  ~/backend/values.yaml
-|4,39,50,22,1706789524,"~/backend/values.yaml"
--'  50  22  ~/backend/values.yaml
-|4,39,50,22,1706789343,"~/backend/values.yaml"
--'  50  22  ~/backend/values.yaml
-|4,39,50,22,1706789343,"~/backend/values.yaml"
--'  50  22  ~/backend/values.yaml
-|4,39,50,22,1706789343,"~/backend/values.yaml"
--'  50  22  ~/backend/values.yaml
-|4,39,50,22,1706789343,"~/backend/values.yaml"
--'  82  11  ~/backend/values.yaml
-|4,39,82,11,1706789328,"~/backend/values.yaml"
--'  82  11  ~/backend/values.yaml
-|4,39,82,11,1706789328,"~/backend/values.yaml"
--'  82  11  ~/backend/values.yaml
-|4,39,82,11,1706789328,"~/backend/values.yaml"
--'  82  11  ~/backend/values.yaml
-|4,39,82,11,1706789328,"~/backend/values.yaml"
--'  82  11  ~/backend/values.yaml
-|4,39,82,11,1706789328,"~/backend/values.yaml"
--'  82  11  ~/backend/values.yaml
-|4,39,82,11,1706789328,"~/backend/values.yaml"
--'  82  11  ~/backend/values.yaml
-|4,39,82,11,1706789328,"~/backend/values.yaml"
--'  82  11  ~/backend/values.yaml
-|4,39,82,11,1706789328,"~/backend/values.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
--'  42  43  ~/backend/templates/deployment.yaml
-|4,39,42,43,1706789195,"~/backend/templates/deployment.yaml"
+-'  18  13  ~/mongo/Chart.yaml
+|4,39,18,13,1706861774,"~/mongo/Chart.yaml"
+-'  18  13  ~/mongo/Chart.yaml
+|4,39,18,13,1706860373,"~/mongo/Chart.yaml"
+-'  82  11  ~/mongo/values.yaml
+|4,39,82,11,1706860271,"~/mongo/values.yaml"
+-'  82  11  ~/mongo/values.yaml
+|4,39,82,11,1706860271,"~/mongo/values.yaml"
+-'  82  11  ~/mongo/values.yaml
+|4,39,82,11,1706860271,"~/mongo/values.yaml"
+-'  82  11  ~/mongo/values.yaml
+|4,39,82,11,1706860271,"~/mongo/values.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859315,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859315,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859315,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859315,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859315,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859315,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859315,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859315,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  1  0  ~/mongo/service.yaml
+|4,39,1,0,1706859230,"~/mongo/service.yaml"
+-'  18  13  ~/mongo/Chart.yaml
+|4,39,18,13,1706859211,"~/mongo/Chart.yaml"
+-'  18  13  ~/mongo/Chart.yaml
+|4,39,18,13,1706859211,"~/mongo/Chart.yaml"
+-'  18  13  ~/mongo/Chart.yaml
+|4,39,18,13,1706859211,"~/mongo/Chart.yaml"
+-'  18  13  ~/mongo/Chart.yaml
+|4,39,18,13,1706859211,"~/mongo/Chart.yaml"
+-'  18  13  ~/mongo/Chart.yaml
+|4,39,18,13,1706859211,"~/mongo/Chart.yaml"
+-'  18  13  ~/mongo/Chart.yaml
+|4,39,18,13,1706859211,"~/mongo/Chart.yaml"
+-'  18  13  ~/mongo/Chart.yaml
+|4,39,18,13,1706859211,"~/mongo/Chart.yaml"
+-'  18  13  ~/mongo/Chart.yaml
+|4,39,18,13,1706859211,"~/mongo/Chart.yaml"
+-'  1  0  ~/mongo/Chart.yaml
+|4,39,1,0,1706859189,"~/mongo/Chart.yaml"
+-'  1  0  ~/mongo/Chart.yaml
+|4,39,1,0,1706859189,"~/mongo/Chart.yaml"
+-'  1  0  ~/mongo/Chart.yaml
+|4,39,1,0,1706859189,"~/mongo/Chart.yaml"
+-'  1  0  ~/mongo/Chart.yaml
+|4,39,1,0,1706859189,"~/mongo/Chart.yaml"
+-'  1  0  ~/mongo/Chart.yaml
+|4,39,1,0,1706859189,"~/mongo/Chart.yaml"
+-'  1  0  ~/mongo/Chart.yaml
+|4,39,1,0,1706859189,"~/mongo/Chart.yaml"
+-'  1  0  ~/mongo/Chart.yaml
+|4,39,1,0,1706859189,"~/mongo/Chart.yaml"
+-'  1  0  ~/mongo/Chart.yaml
+|4,39,1,0,1706859189,"~/mongo/Chart.yaml"
+-'  1  0  ~/mongo/Chart.yaml
+|4,39,1,0,1706859189,"~/mongo/Chart.yaml"
+-'  1  0  ~/mongo/Chart.yaml
+|4,39,1,0,1706859189,"~/mongo/Chart.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
 -'  1  0  ~/mongo/templates/service.yaml
-|4,39,1,0,1706789111,"~/mongo/templates/service.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
--'  81  0  ~/mongo/values.yaml
-|4,39,81,0,1706789061,"~/mongo/values.yaml"
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859162,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
+-'  1  0  ~/mongo/templates/service.yaml
+|4,39,1,0,1706859139,"~/mongo/templates/service.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/mongo/Chart.yaml
+	*	1706861770	0
+	"	18	13
+	^	18	14
+	.	18	13
+	+	18	13
+
+> ~/mongo/values.yaml
+	*	1706860268	0
+	"	82	11
+	^	82	12
+	.	41	12
+	+	40	15
+	+	41	12
+	+	8	28
+	+	9	0
+	+	8	14
+	+	11	13
+	+	41	12
+
+> ~/mongo/templates/service.yaml
+	*	1706859255	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/mongo/service.yaml
+	*	1706859227	0
+	"	1	0
+
+> ~/backend/.gitignore
+	*	1706795354	0
+	"	1	0
 
 > /tmp/kubectl-edit-3506996647.yaml
 	*	1706790377	0
@@ -355,23 +389,6 @@ $
 	+	40	9
 	+	41	10
 	+	42	43
-
-> ~/mongo/templates/service.yaml
-	*	1706789078	0
-	"	1	0
-
-> ~/mongo/values.yaml
-	*	1706789057	0
-	"	81	0
-	^	82	12
-	.	41	12
-	+	40	15
-	+	41	12
-	+	8	28
-	+	9	0
-	+	8	14
-	+	11	13
-	+	41	12
 
 > ~/mongo/templates/service
 	*	1706789004	0
